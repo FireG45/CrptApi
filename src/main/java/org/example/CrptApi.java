@@ -106,7 +106,7 @@ class Product {
     private String uitu_code;
 }
 
-public class App {
+class App {
     public static void main(String[] args) throws JsonProcessingException {
         // Создаем экземпляр CrptApi
         CrptApi crptApi = new CrptApi(TimeUnit.SECONDS, 10, 5);
